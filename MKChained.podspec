@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
 
-  s.name         = "MKChained"
+  s.name         = "MKUIChained"
   s.version      = "0.0.1"
   s.summary      = "这是一个公共的链式语法类库你可以下载应用到你的系统中"
 
@@ -19,16 +19,15 @@ This is a chain of grammar public libraries You can use to reduce their own code
 
   s.homepage     = "https://github.com/jxcz94754/MKUIChained"
 
-
   s.license      = "MIT"
 
-  s.author             = { "Mark" => "1032325795@qq.com" }
+  s.author       = { "Mark" => "1032325795@qq.com" }
 
   s.platform     = :ios, 9.0
 
   s.source       = { :git => "https://github.com/jxcz94754/MKUIChained.git", :tag => "0.0.1" }
 
-  s.frameworks = "Foundation"
+  s.frameworks = "Foundation","UIKit"
 
   s.vendored_frameworks = 'MKUIChained.framework'
 
