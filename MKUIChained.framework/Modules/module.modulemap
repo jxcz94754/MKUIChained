@@ -1,0 +1,6 @@
+framework module MKUIChained {
+  umbrella header "MKUIChained.h"
+
+  export *
+  module * { export * }
+}
